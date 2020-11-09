@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Ausztrália Rovaremésztö Növényei</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amethysta&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#welcome-section">About</a></li>
+          <li>
+            <a href="#projects">Projekts</a></li>
+          <li>
+            <a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    <div class="container">
+        <div class="card">
+          <div class="image image1"></div>
+          <div class="info">
+            <h2>About me</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image image2"></div>
+          <div class="info">
+              <h2>Projekts</h2>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image image3"></div>
+          <div class="info">
+              <h2>Contact</h2>
+          </div>
+        </div>
+      </div>
+      <svg>
+        <filter id="wavy1">
+          <feturbulence x="0" y="0" baseFrequency="0.2" numOctaves="5" seed="1"></feturbulence>
+          <feDisplacementMap in="SourceGraphic" scale="20" />
+        </filter>
+      </svg>
+      <svg>
+        <filter id="wavy2">
+          <feturbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="1"></feturbulence>
+          <feDisplacementMap in="SourceGraphic" scale="20" />
+        </filter>
+      </svg>
+      <svg>
+        <filter id="wavy3">
+          <feturbulence x="0" y="0" baseFrequency="0.1" numOctaves="5" seed="1"></feturbulence>
+          <feDisplacementMap in="SourceGraphic" scale="20" />
+        </filter>
+      </svg>
+</body>
+</html>

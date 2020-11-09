@@ -1,0 +1,51 @@
+.container {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 180px;
+    background: rgb(34, 179, 34);
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 5px 3px grey;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 4px 2px grey;
+}
+
+.card:active {
+    box-shadow: none;
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    color: white;
+    background: lightgreen;
+    border: 0;
+    border-radius: 2px;
+    height: 30px;
